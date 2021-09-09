@@ -20,9 +20,9 @@ Launch browser and run http://127.0.0.1:5500/
 General Conversation and Assistance
 ______________________________________
 
-hi how are you
-I am good
-what's your name
+hi how are you \n
+I am good \n
+what's your name \n
 what are you
 what can you do for me
 
