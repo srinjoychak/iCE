@@ -1,0 +1,76 @@
+categories:
+- pipeline
+- jenkins
+- git
+conversations:
+- - create git repository
+  - Yes i can, please type "Create github repository with repo name repo_name"
+- - create repository
+  - Yes i can, please type "Create github repository with repo name repo_name"
+- - can you create a git repository
+  - Yes i can, please type "Create github repository with repo name repo_name"
+- - what are the available pipelines
+  - While i am constantly updating and upgrading myself discovering more pipelines currently i have ->
+    Default NSO pipeline,
+    Default BPA pipeline,
+    pipeline to pull image from docker registry,
+    pipeline to pull image from helm registry,
+    pipeline to pull image from S3 bucket,
+    pipeline to pull image from Artifactory url,
+    If you want a pipeline just type "upload default NSO pipeline in the git repo repo_url" or "upload image pull docker pipeline in the git repo repo_url". If you want to create repo and upload the pipeline then run commands "Create github repository with repo name repo_name" and then run "upload default NSO pipeline in the git repo repo_url"
+- - what are the pipelines available
+  - While i am constantly updating and upgrading myself discovering more pipelines currently i have ->
+    Default NSO pipeline,
+    Default BPA pipeline,
+    pipeline to pull image from docker registry,
+    pipeline to pull image from helm registry,
+    pipeline to pull image from S3 bucket,
+    pipeline to pull image from Artifactory url,
+    If you want a pipeline just type "upload default NSO pipeline in the git repo repo_url" or "upload image pull docker pipeline in the git repo repo_url". If you want to create repo and upload the pipeline then run commands "Create github repository with repo name repo_name" and then run "upload default NSO pipeline in the git repo repo_url"
+- - pipelines available
+  - While i am constantly updating and upgrading myself discovering more pipelines currently i have ->
+    Default NSO pipeline,
+    Default BPA pipeline,
+    pipeline to pull image from docker registry,
+    pipeline to pull image from helm registry,
+    pipeline to pull image from S3 bucket,
+    pipeline to pull image from Artifactory url,
+    If you want a pipeline just type "upload default NSO pipeline in the git repo repo_url" or "upload image pull docker pipeline in the git repo repo_url". If you want to create repo and upload the pipeline then run commands "Create github repository with repo name repo_name" and then run "upload default NSO pipeline in the git repo repo_url"
+- - available pipelines
+  - While i am constantly updating and upgrading myself discovering more pipelines currently i have ->
+    Default NSO pipeline,
+    Default BPA pipeline,
+    pipeline to pull image from docker registry,
+    pipeline to pull image from helm registry,
+    pipeline to pull image from S3 bucket,
+    pipeline to pull image from Artifactory url,
+    If you want a pipeline just type "upload default NSO pipeline in the git repo repo_url" or "upload image pull docker pipeline in the git repo repo_url". If you want to create repo and upload the pipeline then run commands "Create github repository with repo name repo_name" and then run "upload default NSO pipeline in the git repo repo_url"
+- - what are the available NSO pipelines
+  - i could find
+    default NSO pipeline,
+    NSO deployment pipeline,
+    NSO uBot testing pipeline
+- - what are the available NSO pipelines
+  - i could find
+    default NSO pipeline,
+    NSO deployment pipeline,
+    NSO uBot testing pipeline
+- - pipelines available for NSO
+  - Currently i could find
+    default NSO pipeline,
+    NSO deployment pipeline,
+    NSO uBot testing pipeline
+- - upload default NSO pipeline in the git repo repo_url
+  - Please type "upload default NSO pipeline in the git repo repo_url".
+    If you want to upload in a specific branch type "upload default NSO pipeline in the git repo repo_url in branch branch_name".
+    If you want to create repo and upload the pipeline then run commands "Create github repository with repo name repo_name" and then run "upload default NSO pipeline in the git repo repo_url"
+- - default NSO pipeline
+  - Please run the command "upload default NSO pipeline in the git repo repo_url".
+    If you want to upload in a specific "upload default NSO pipeline in the git repo repo_url in branch branch_name".
+    If you want to create repo and upload the pipeline then run commands "Create github repository with repo name repo_name" and then run "upload default NSO pipeline in the git repo repo_url"
+- - Upload file to github repo
+  - I can help, first please upload the file and then type "Upload file file_name to Git repo repo_url"
+- - upload the file to github repo
+  - I can help, first please upload the file and then type "Upload file file_name to git repo repo_url" or "Upload file file_name to git repo repo_url in branch branch_name"
+- - Upload to github repo
+  - I can help, first please upload the file and then type "Upload file file_name to git repo repo_url"

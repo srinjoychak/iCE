@@ -1,0 +1,79 @@
+categories:
+  - kubernetes
+  - k8s
+  - K8s
+conversations:
+  - - Get pods
+    - Please type the request "Get me pods from namespace namespace_name" or "Get me pods from all namespaces"
+  - - get pods
+    - Please type the request "Get me pods from namespace namespace_name" or "Get me pods from all namespaces"
+  - - Get me pods
+    - Please type the request "Get me pods from namespace namespace_name" or "Get me pods from all namespaces"
+  - - get me pods
+    - Please type the request "Get me pods from namespace namespace_name" or "Get me pods from all namespaces"
+  - - Can you get me pods from specific namespace
+    - Yes, please type the request "Get me pods from namespace namespace_name"
+  - - Can you get me pods from a specific namespace
+    - Yes, please type the request "Get me pods from namespace namespace_name"
+  - - Can you help me deploy
+    - Yes, please upload the deployment yaml file, then type the request "Deploy with file deployment_filename in namespace namespace_name"
+  - - How can i deploy something
+    - Yes, please upload the deployment yaml file, then type the request "Deploy with file deployment_filename in namespace namespace_name"
+  - - Can you help me with deployment
+    - Yes, please upload the deployment yaml file, then type the request "Deploy with file deployment_filename in namespace namespace_name"
+  - - Please help with deployment
+    - Yes, please upload the deployment yaml file, then type the request "Deploy with file deployment_filename in namespace namespace_name"
+  - - Can you please help with deployment
+    - Yes, please upload the deployment yaml file, then type the request "Deploy with file deployment_filename in namespace namespace_name"
+  - - how to create deployment
+    - Yes, please upload the deployment yaml file, then type the request "Deploy with file deployment_filename in namespace namespace_name"
+  - - create deployment
+    - Please upload the deployment yaml file, then type the request "Deploy with file deployment_filename in namespace namespace_name"
+  - - Create deployment
+    - Please upload the deployment yaml file, then type the request "Deploy with file deployment_filename in namespace namespace_name"
+  - - How can i deploy
+    - Please upload the deployment yaml file, then type the request "Deploy with file deployment_filename in namespace namespace_name"
+  - - Can you please deploy
+    - Yes, please upload the deployment yaml file, then type the request "Deploy with file deployment_filename in namespace namespace_name"
+  - - Can you help me with deployment
+    - Please upload the deployment yaml file, then type the request "Deploy with file deployment_filename in namespace namespace_name"
+  - - create namespace
+    - Please upload the namespace yaml file, and then request 'Please create namespace with file namespace-filename.yaml'. If you want to assign some quota please request by 'Please create namespace with file namespace_filename and assign quota namespace_quota_filename'
+  - - can you create a namespace
+    - Yes, please upload the namespace yaml file, and then request 'Please create namespace with file namespace-filename.yaml'. If you want to assign some quota please request by 'Please create namespace with file namespace_filename and assign quota namespace_quota_filename'
+  - - can you create a namespace for me
+    - Yes, please upload the namespace yaml file, and then request 'Please create namespace with file namespace-filename.yaml'. If you want to assign some quota please request by 'Please create namespace with file namespace_filename and assign quota namespace_quota_filename'
+  - - Can you help create a namespace
+    - Yes, please upload the namespace yaml file, and then request 'Please create namespace with file namespace-filename.yaml'. If you want to assign some quota please request by 'Please create namespace with file namespace_filename and assign quota namespace_quota_filename'
+  - - delete namespace
+    - Please type the request 'Please delete namespace namespace-name'
+  - - Delete namespace
+    - Please type the request 'Please delete namespace namespace-name'
+  - - Can you delete a namespace
+    - Yes, please type the request 'Please delete namespace namespace-name'
+  - - can you delete a namespace
+    - Yes, please type the request 'Please delete namespace namespace-name'
+  - - Can you delete a namespace for me
+    - Yes, please type the request 'Please delete namespace namespace-name'
+  - - Can you help delete a namespace
+    - Yes, please type the request 'Please delete namespace namespace-name'
+  - - Can you help me delete a deployment
+    - Yes, please type the request 'Please delete deployment deployment-name from namespace namespace-name'
+  - - How can i delete deployment
+    - Yes, please type the request 'Please delete deployment deployment-name from namespace namespace-name'
+  - - Can you help me delete deployment
+    - Yes, please type the request 'Please delete deployment deployment-name from namespace namespace-name'
+  - - Please help delete deployment
+    - Yes, please type the request 'Please delete deployment deployment-name from namespace namespace-name'
+  - - Please help delete a deployment
+    - Yes, please type the request 'Please delete deployment deployment-name from namespace namespace-name'
+  - - How can i delete a deployment
+    - Yes, please type the request 'Please delete deployment deployment-name from namespace namespace-name'
+  - - Can you please delete a deployment
+    - Yes, please type the request 'Please delete deployment deployment-name from namespace namespace-name'
+  - - delete deployment
+    - Yes, please type the request 'Please delete deployment deployment-name from namespace namespace-name'
+  - - Delete deployment
+    - Yes, please type the request 'Please delete deployment deployment-name from namespace namespace-name'
+  - - file uploaded successfully
+    - File uploaded successfully
