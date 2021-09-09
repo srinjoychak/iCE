@@ -1,17 +1,17 @@
 # iCE_Dev
 
-iCE (Intelligent ChatOps Engine) is AI/ML powered devops engine, which enables true collaborative work between Dev and Ops team and assisting each member fulfilling their individual responsibilities in silos.\
+iCE (Intelligent ChatOps Engine) is AI/ML powered devops engine, which enables true collaborative work between Dev and Ops team and assisting each member fulfilling their individual responsibilities in silos.
 
 Multi-environment management, assisted development and flexible devops are some of its key features to name.\
-The apparatus is available as a ChatOps software-as-a-service and can be integrated through REST APIs to chat systems such as Webex/MS Teams, Slack etc.\
+The apparatus is available as a ChatOps software-as-a-service and can be integrated through REST APIs to chat systems such as Webex/MS Teams, Slack etc.
 
-Sharing some of the commands below which can requested using voice commands also. There are many more functions available...\
+Sharing some of the commands below which can requested using voice commands also. There are many more functions available...
 
 NLP based chatbot.\
 Run "pip install -r requirements.txt"\
 Run "python train.py"\
 Then run "python app.py"\
-Launch browser and run http://127.0.0.1:5500/ \
+Launch browser and run http://127.0.0.1:5500/ 
 
 
 
@@ -23,17 +23,17 @@ ______________________________________
 hi how are you \
 what's your name \
 what are you\
-what can you do for me\
+what can you do for me
 
 what is your age\
 Who is your boss\
 what are your favorite topics\
 what is your programming language\
-can you eat\
+can you eat
 
 
 What is Cisco\
-Who is Chuck Robbins\
+Who is Chuck Robbins
 
 
 
@@ -44,21 +44,21 @@ K8s Management:
 ___________________________________________________________________________
 
 What is kubernetes\
-Can you play on YouTube how to install kubernetes\
+Can you play on YouTube how to install kubernetes
 
 can you get me pods from all namespaces\
 Can you get me pods from specific namespace\
-get me pods from namespace test-namespace\
+get me pods from namespace test-namespace
 
 can you create a namespace\
-can you delete a namespace\
+can you delete a namespace
 
 
 Can you help me with deployment\
-Can you please delete a deployment\
+Can you please delete a deployment
 
 Please create namespace with file test-namespace.yaml and assign quota test-namespace-quota.yaml\
-Deploy with file nginx-deployment.yaml in namespace test-namespace\
+Deploy with file nginx-deployment.yaml in namespace test-namespace
 
 
 
@@ -68,22 +68,22 @@ Assisted DevOps:
 _______________________________
 
 can you create a git repository\
-Create github repository with repo name Test-Repo-iceDemo\
+Create github repository with repo name Test-Repo-iceDemo
 
 
 Upload file to github repo\
 Upload file nginx-deployment.yaml to git repo repo_url\
-Upload file file_name to git repo repo_url in branch branch_name\
+Upload file file_name to git repo repo_url in branch branch_name
 
 
 what are the available pipelines\
-what are the available NSO pipelines?\
+what are the available NSO pipelines?
 
 upload default NSO pipeline in the git repo repo_url\
 upload docker image pull pipeline in the git repo repo_url\
-upload corona scan pipeline in the git repo repo_url\
+upload corona scan pipeline in the git repo repo_url
 
-upload default NSO pipeline in the git repo repo_url in branch branch_name\
+upload default NSO pipeline in the git repo repo_url in branch branch_name
 
 
 
@@ -98,4 +98,4 @@ Can you find sample code for rfs\
 Can you find sample yang models for cfs\
 Can you find sample yang module for cfs\
 Can you find sample java code for cfs\
-Can you find sample code for l3vpn\
+Can you find sample code for l3vpn
