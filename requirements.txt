@@ -8,7 +8,7 @@ nltk==3.6.2
 pyjokes==0.6.0
 pyjsparser==2.7.1
 pywhatkit==5.0
-PyYAML==3.13
+PyYAML>=5.4
 requests==2.25.1
 websocket-client==1.1.0
 Werkzeug==2.0.1
