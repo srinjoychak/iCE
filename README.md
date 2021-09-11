@@ -49,7 +49,7 @@ Launch browser and run http://127.0.0.1:5500/
 ![iCE chatbot](https://user-images.githubusercontent.com/19473736/132938237-3c79478b-9842-4038-a7fa-d33f5974bca9.jpg)
 
 
-##iCE Sample Conversations 
+## iCE Sample Conversations 
 Currently iCE has been developed to operate only inside Cisco network. So the user has to be connected to Cisco VPN or network. 
 For Kubernetes administration, the user first have to upload the config file to iCE.
 
