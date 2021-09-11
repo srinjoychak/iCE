@@ -1,6 +1,12 @@
-# iCE_Dev
+# intelligent ChatOps Engine (iCE)
 
-iCE (Intelligent ChatOps Engine) is AI/ML powered devops engine, which enables true collaborative work between Dev and Ops team and assisting each member fulfilling their individual responsibilities in silos.
+## Introducing iCE
+iCE (Intelligent ChatOps Engine) is a voice enabled chatbot engine, which can assist users perfrom several Dev and operational (Ops) functions through voice or chat interactions.  Backed by powerful AI/ML model, iCE can help teams/individuals with complete Kubernetes environment management, Flexible devops and Assisted development for developers among several functions. 
+
+iCE is developed using [Python Chatterbot library](https://chatterbot.readthedocs.io/en/stable/), NLTK modules, Python Flask, Kubernetes API, GitHub API for its various functions.
+![iCE Architecture](https://user-images.githubusercontent.com/19473736/132937378-3f77cf8e-8255-4a80-8d98-fe9163e36d1b.png)
+
+
 
 Multi-environment management, assisted development and flexible devops are some of its key features to name.\
 The apparatus is available as a ChatOps software-as-a-service and can be integrated through REST APIs to chat systems such as Webex/MS Teams, Slack etc.
