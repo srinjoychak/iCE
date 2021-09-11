@@ -71,8 +71,8 @@ For Kubernetes administration, the user first have to upload the config file to 
 
 
 **K8s Management**\
-A 4 node K8s environment have been setup in CALO Lab for this POC. The config file for the POC setup can be shared upon request.\
-Please contact us at [srinjcha@cisco.com](mailto:srinjcha@cisco.com).
+A 4 node K8s environment have been setup in CALO Lab for this POC. The config file for the POC setup can be shared upon request.
+Please contact us at [srinjcha@cisco.com](mailto:srinjcha@cisco.com).\
 Sample files for namespace creation and deployment of a service can be found inside [test-data folder](https://github.com/srinjoychak/iCE/tree/master/test-data).
 
   - What is kubernetes
