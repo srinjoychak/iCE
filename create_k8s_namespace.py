@@ -20,7 +20,7 @@ class CreateK8sNamespace(LogicAdapter):
     def process(self, input_statement, additional_response_selection_parameters):
         from chatterbot.conversation import Statement
 
-        k8s_config = config.load_kube_config('config')
+        k8s_config = config.load_kube_config('./upload/config')
         self.k8s_apps_v1 = client.AppsV1Api()
         self.k8s_core_v1 = client.CoreV1Api()
         base_dir = './upload/'
