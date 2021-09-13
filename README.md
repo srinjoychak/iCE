@@ -109,14 +109,12 @@ Sample files for namespace creation and deployment of a service can be found ins
 
 
 **Assisted development**
+  - Can you find sample code for l3vpn
   - Can you find me sample yang model for l3vpn
   - can you find me sample yang model for RFS microservice
   - can you find me sample code for RFS microservice
-  - Can you find sample code for rfs
   - Can you find sample yang models for cfs
-  - Can you find sample yang module for cfs
   - Can you find sample java code for cfs
-  - Can you find sample code for l3vpn
   - show content <repo_url>
 
 
