@@ -128,7 +128,7 @@ class GitManagement(LogicAdapter):
 
     def create_git_repo(self,repo_name):
         #User needs to generate Git API token from https://wwwin-github.cisco.com/
-        token = '6ccd14a3c5b7cb77d44ea9024102bf920a5b067a'
+        token = '<Update_GIT_API-Token>'
         headers = {"Authorization": "token %s"%token, "Accept":"application/vnd.github.v3+json"}
         payload = '{ \"name\":\"%s\" }'%repo_name
 
