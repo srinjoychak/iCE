@@ -101,7 +101,7 @@ class AssistDev(LogicAdapter):
 
     def get_requests(self, url):
         #User needs to generate Git API token from https://wwwin-github.cisco.com/
-        git_token = '6ccd14a3c5b7cb77d44ea9024102bf920a5b067a'
+        git_token = '<Git Token Here>'
         headers = { "Accept":"application/vnd.github.v3+json","Authorization": "token %s"%git_token }
         try:
             r = requests.get(url,headers=headers)
