@@ -1,0 +1,63 @@
+version: '2.2'
+
+services:
+  ice_ui:
+    build:
+      context: ./
+      dockerfile: Dockerfile_R
+    image: ice_ui:latest
+    container_name: ice_ui_container
+    ports:
+      - "5006:8501"
+    restart: always
+    extra_hosts:
+      - iceservice.com:<ip_address>
+
+  ice_backend:
+    build:
+      context: ./
+      dockerfile: Dockerfile_D
+    ports:
+      - "8080:8200"
+    restart: always
+    image: ice_backend:latest
+    container_name: ice_backend_container
+    extra_hosts:
+      - iceservice.com:<ip_address>
+
+  ice_ollama_gpu:
+    image: ollama/ollama:latest
+    container_name: ice_ollama_gpu_container
+    ports:
+      - "11436:11434"
+    restart: always
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    runtime: nvidia
+    extra_hosts:
+      - iceservice.com:<ip_address>
+
+  ice_ollama_cpu:
+    image: ollama/ollama:latest
+    container_name: ice_ollama_cpu_container
+    ports:
+      - "11436:11434"
+    restart: always
+    extra_hosts:
+      - iceservice.com:<ip_address>
+
+  ice_db:
+    image: mongo:latest
+    container_name: ice_db_container
+    ports:
+      - "27019:27017"
+    restart: always
+    volumes:
+      - ~/ice_db_dump:/data/db
+    extra_hosts:
+      - iceservice.com:<ip_address> 
