@@ -5,16 +5,19 @@
 - Docker Compose
 
 ## System Requirements
+   iCE operates in both Online and Offline environments. For Offline environments a GPU system is preferred for optimal performance, however the application works with only CPU.
+   For online models (eg: ChatGPT, Azure OpenAI) the system spec would be the following: 8 CPU - 8 GB RAM - 20 GB storage 
+   For offline environments, minimum systems recommended without GPU - 8 CPU - 16 GB RAM - 20 GB storage
 
-   A GPU machine is preferred for optimal performance, but the code works fine even with a CPU.
+   iCE has been tested in offline environment with following system specification - 16 CPU - 64 GB Memory - 40 GB A100 vRAM
 
 ## Steps to setup iCE
 
 1. **Clone the Repository:**
 
-   git clone https://wwwin-github.cisco.com/iCE/iCE_ScrumBot_Ollama
+   git clone [https://wwwin-github.cisco.com/iCE/iCE_ScrumBot_Ollama](https://github.com/srinjoychak/iCE)
    ```bash
-      cd iCE_ScrumBot_Ollama
+      cd iCE
    ```
 
 2. **Update the .env File:** 
