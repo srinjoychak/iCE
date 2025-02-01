@@ -1,4 +1,9 @@
 # iCE (intelligent Copilot Engine)
+
+## Introduction
+Intelligent Copliot Engine (iCE) is a Agentic AI framework developed to support Project Management, CI/CD, Test Automations, Infra Management and several developer focussed services.
+
+
 ## Prerequisites
 
 - Docker
